@@ -79,4 +79,8 @@ a:hover {
     display: flex;
     justify-content: space-around;
 }
+#CM {
+    font-size: 48px;
+    color: #710000;
+}
 

@@ -1,0 +1,82 @@
+
+.Home{
+    background-image: url("IMG_2381.JPG");
+    background-position: center;
+    background-size: cover;
+}
+body {
+    background-color: #C36F09;
+    color: #F4E409;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+h1 {
+    background-color: #710000;
+    font-size: 64px;
+    color: orangered;
+}
+header {
+    background-color: #710000;
+}
+header::after {
+    content:'';
+    display: table;
+    clear: right;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    padding-right: 25px;
+}
+nav a {
+    color: orangered;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2 {
+   font-size: 128px;
+    color:orange;
+}
+.text {
+    color: #F4E409;
+    font-size: 22px;
+    font-family: 'open sans', sans-serif;
+    line-height: 2;
+    max-width:500px;
+    height: 100px;
+}
+a {
+    font-size: 32px;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+#Resume {
+    font-size: 32px;
+    color: #F4E409;
+}
+.Courses {
+    font-size: 48px;
+    color: darkmagenta;
+}
+.Project {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    grid-gap: 100px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+

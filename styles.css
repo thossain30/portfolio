@@ -58,16 +58,16 @@ a {
     font-size: 32px;
 }
 a:hover {
-    background-color: black;
-    color: white;
+    background-color: #EDF5E1;
+    color: #05386B;
 }
 #Resume {
     font-size: 32px;
-    color: #EDF5E1;
+    color: #05386B;
 }
 .Courses {
     font-size: 48px;
-    color: darkmagenta;
+    color: darkblue;
 }
 .Project {
     display: grid;

@@ -5,18 +5,18 @@
     background-size: cover;
 }
 body {
-    background-color: #C36F09;
-    color: #F4E409;
+    background-color: #5CDB95;
+    color: #EDF5E1;
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
 }
 h1 {
-    background-color: #710000;
+    background-color: #05386B;
     font-size: 64px;
-    color: orangered;
+    color: #EDF5E1;
 }
 header {
-    background-color: #710000;
+    background-color: #05386B;
 }
 header::after {
     content:'';
@@ -38,16 +38,16 @@ nav li {
     padding-right: 25px;
 }
 nav a {
-    color: orangered;
+    color: #EDF5E1;
     text-decoration: none;
     text-transform: uppercase;
 }
 h2 {
    font-size: 128px;
-    color:orange;
+    color:#379683;
 }
 .text {
-    color: #F4E409;
+    color: #EDF5E1;
     font-size: 22px;
     font-family: 'open sans', sans-serif;
     line-height: 2;
@@ -81,6 +81,6 @@ a:hover {
 }
 #CM {
     font-size: 48px;
-    color: #710000;
+    color: #05386B;
 }
 

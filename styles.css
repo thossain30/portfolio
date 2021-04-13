@@ -1,8 +1,13 @@
-
-.Home{
-    background-image: url("background.jpg");
-    background-position: center;
-    background-size: cover;
+a {
+    font-size: 32px;
+}
+a:hover {
+    background-color: #EDF5E1;
+    color: #05386B;
+}
+a:active {
+  background-color: #379683;
+  color: #EDF5E1;
 }
 body {
     background-color: #5CDB95;
@@ -15,6 +20,10 @@ h1 {
     font-size: 64px;
     color: #EDF5E1;
 }
+h2 {
+   font-size: 128px;
+    color:#379683;
+}
 header {
     background-color: #05386B;
 }
@@ -26,10 +35,10 @@ header::after {
 nav {
     float: right;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav a {
+    color: #EDF5E1;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 nav li {
     display: inline-block;
@@ -37,43 +46,48 @@ nav li {
     padding-top: 23px;
     padding-right: 25px;
 }
-nav a {
-    color: #EDF5E1;
-    text-decoration: none;
-    text-transform: uppercase;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-h2 {
-   font-size: 128px;
-    color:#379683;
-}
-.text {
-    color: #EDF5E1;
-    font-size: 22px;
-    font-family: 'open sans', sans-serif;
-    line-height: 2;
-    max-width:500px;
-    height: 100px;
-}
-a {
-    font-size: 32px;
-}
-a:hover {
-    background-color: #EDF5E1;
-    color: #05386B;
-}
-#Resume {
-    font-size: 32px;
-    color: #05386B;
+.description {
+  font-size: 24px;
 }
 .Courses {
     font-size: 48px;
     color: darkblue;
+}
+.Home{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.link {
+  font-size: 36px;
+  color: #379683;
+}
+.link:hover {
+  background-color: #8EE4AD;
+  color: #05386B;
+}
+.link:active {
+  background-color: #5CDB95;
+  color: #05386B;
 }
 .Project {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: flex-start;
     grid-gap: 100px;
+}
+.text {
+    color: #05386B;
+    font-size: 22px;
+    font-family: 'open sans', sans-serif;
+    line-height: 2;
+    max-width:500px;
+    height: 100px;
 }
 .wrap {
     display: flex;
@@ -83,4 +97,7 @@ a:hover {
     font-size: 48px;
     color: #05386B;
 }
-
+#Resume {
+    font-size: 48px;
+    color: #05386B;
+}

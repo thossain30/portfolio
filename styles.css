@@ -1,67 +1,138 @@
+body {
+  background: linear-gradient(to bottom, #5CDB95 20%, #4a8d85 100%);
+  background-position: center;
+  background-size: cover;
+  color: #EDF5E1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
 a {
-    font-size: 32px;
+  font-size: 32px;
 }
 a:hover {
-    background-color: #EDF5E1;
-    color: #05386B;
+  background-color: #EDF5E1;
+  color: #05386B;
 }
 a:active {
   background-color: #379683;
   color: #EDF5E1;
 }
-body {
-    background-color: #5CDB95;
-    color: #EDF5E1;
-    font-family: 'Oswald', sans-serif;
-    font-size: 36px;
+.box {
+  position: absolute;
+  top: 115%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: 300px;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+}
+.box .skills {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+}
+.box .skills .graph {
+  position: absolute;
+  width: 40px;
+  background: rgba(5,56,107,1);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to top, #05386B 20%, #cdd7e1 50%, #05386B 80%);
+}
+.box .skills .graph::before{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 0;
+}
+.box .skills .graph::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.1); 
+}
+.box .skills .graph .percent {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.box .skills .home {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+#web {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 h1 {
-    background-color: #05386B;
-    font-size: 64px;
-    color: #EDF5E1;
+  background-color: #05386B;
+  font-size: 64px;
+  color: #EDF5E1;
 }
 h2 {
-   font-size: 128px;
-    color:#379683;
+  font-size: 128px;
+  color:#379683;
 }
 header {
-    background-color: #05386B;
+  background-color: #05386B;
 }
 header::after {
-    content:'';
-    display: table;
-    clear: right;
+  content:'';
+  display: table;
+  clear: right;
 }
 nav {
-    float: right;
+  float: right;
 }
 nav a {
-    color: #EDF5E1;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: #EDF5E1;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
-    padding-right: 25px;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  padding-right: 25px;
 }
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .description {
   font-size: 24px;
 }
 .Courses {
-    font-size: 48px;
-    color: darkblue;
+  font-size: 48px;
+  color: darkblue;
 }
 .Home{
-    background-image: url("background.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .link {
   font-size: 36px;
@@ -75,29 +146,30 @@ nav ul {
   background-color: #5CDB95;
   color: #05386B;
 }
+
 .Project {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: flex-start;
-    grid-gap: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  grid-gap: 100px;
 }
 .text {
-    color: #05386B;
-    font-size: 22px;
-    font-family: 'open sans', sans-serif;
-    line-height: 2;
-    max-width:500px;
-    height: 100px;
+  color: #05386B;
+  font-size: 22px;
+  font-family: 'open sans', sans-serif;
+  line-height: 2;
+  max-width:500px;
+  height: 75px;
 }
 .wrap {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 #CM {
-    font-size: 48px;
-    color: #05386B;
+  font-size: 48px;
+  color: #05386B;
 }
 #Resume {
-    font-size: 48px;
-    color: #05386B;
+  font-size: 48px;
+  color: #05386B;
 }

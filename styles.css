@@ -17,65 +17,39 @@ a:active {
   background-color: #379683;
   color: #EDF5E1;
 }
-.box {
+.center {
+  width: 35%;
   position: absolute;
-  top: 115%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  width: 550px;
-  height: 300px;
-  background: transparent;
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  display: flex;
+  top: 97%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  padding: 10px;
 }
-.box .skills {
+.skillbox {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px 0;
+}
+.skillBox p {
+  margin: 0 0 10px;
+  font-size: 25px;
+}
+.skillBox p:nth-child(2) {
+  float: right;
   position: relative;
-  flex: 1;
-  text-align: center;
-  font-size: 24px;
+  top: -36px;
 }
-.box .skills .graph {
-  position: absolute;
-  width: 40px;
+.skill {
   background: rgba(5,56,107,1);
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(to top, #05386B 20%, #cdd7e1 50%, #05386B 80%);
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #0fffb7;
+  border-radius: 2px;
 }
-.box .skills .graph::before{
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 0;
-}
-.box .skills .graph::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: rgba(255,255,255,0.1); 
-}
-.box .skills .graph .percent {
-  position: absolute;
-  top: -20%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-.box .skills .home {
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  padding: 2px 6px;
-  border-radius: 4px;
+.skill_level {
+  background: #0fffb7;
+  width: 100%;
+  height: 8px;
 }
 #web {
   position: absolute;
@@ -92,8 +66,26 @@ h1 {
   color: #EDF5E1;
 }
 h2 {
+  position: relative;
+  top: 35%;
   font-size: 128px;
-  color:#379683;
+  color: rgba(230,240,170,1);
+  left: 80px;
+  width: 1000px;
+}
+h3 {
+  position: relative;
+  bottom: 5px;
+  top: 27px;
+  margin-left: 10px;
+}
+h4 {
+  position: relative;
+  font-size: 64px;
+  font-family: 'Pattaya', sans-serif;
+  margin-left: 43%;
+  bottom: 20px;
+  color: rgba(210,220,130,1);
 }
 header {
   background-color: #05386B;

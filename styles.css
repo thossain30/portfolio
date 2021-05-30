@@ -102,12 +102,13 @@ nav a {
   color: #EDF5E1;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 32px;
 }
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 7px;
   padding-top: 23px;
-  padding-right: 25px;
+  padding-right: 150px;
 }
 nav ul {
   margin: 0;
@@ -115,15 +116,13 @@ nav ul {
   list-style: none;
 }
 .description {
-  font-size: 24px;
-}
-.Project .description {
   font-family: 'KoHo', sans-serif;
   font-size: 24px;
   color: #05386B;
+  width: 750px;
 }
 .Courses {
-  font-size: 48px;
+  font-size: 60px;
   color: darkblue;
   margin-left: 15px;
 }
@@ -153,7 +152,7 @@ nav ul {
   margin-left: 15px;
 }
 .Project .name {
-  font-size: 38px;
+  font-size: 50px;
   text-decoration: underline;
   text-decoration-color: #EDF5E1;
   line-height: 10px;

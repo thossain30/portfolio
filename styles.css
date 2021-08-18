@@ -1,6 +1,6 @@
 body {
-/*  background: linear-gradient(to bottom, #5CDB95 20%, #4a8d85 100%);*/
-  background: #52c586;
+  background: linear-gradient(to bottom, #5CDB95 20%, #4a8d85 100%);
+/*  background: #52c586;*/
 /*  background: #6BB261;*/
   background-position: center;
   background-size: cover;
@@ -27,7 +27,12 @@ a:active {
   transform: translate(0%, -50%);
   padding: 10px;
 }
+.skillTitle {
+  transform: translate(0%, 50%);
+  bottom: 90%;
+}
 .skillbox {
+  transform: translate(0%, 40%);
   box-sizing: border-box;
   width: 100%;
   margin: 5px 0;

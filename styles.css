@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(to bottom, #5CDB95 20%, #4a8d85 100%);
+/*  background: linear-gradient(to bottom, #5CDB95 20%, #4a8d85 100%);*/
+  background: #52c586;
+/*  background: #6BB261;*/
   background-position: center;
   background-size: cover;
   color: #EDF5E1;
@@ -28,11 +30,11 @@ a:active {
 .skillbox {
   box-sizing: border-box;
   width: 100%;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .skillBox p {
   margin: 0 0 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .skillBox p:nth-child(2) {
   float: right;
@@ -76,7 +78,7 @@ h2 {
 h3 {
   position: relative;
   bottom: 5px;
-  top: 27px;
+  top: 10px;
   margin-left: 10px;
 }
 h4 {
@@ -152,7 +154,7 @@ nav ul {
   margin-left: 15px;
 }
 .Project .name {
-  font-size: 50px;
+  font-size: 55px;
   text-decoration: underline;
   text-decoration-color: #EDF5E1;
   line-height: 10px;

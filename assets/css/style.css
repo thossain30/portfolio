@@ -112,6 +112,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+#header .profile .social-links a.linkedin:hover {
+	background: #007BB5;
+  color: #fff;
+  text-decoration: none;
+}
+#header .profile .social-links a.github:hover {
+	background: #5f467e;
+  color: #fff;
+  text-decoration: none;
+}
+#header .profile .social-links a.twitter:hover {
+	background: #1DA1F2;
+  color: #fff;
+  text-decoration: none;
+}
 
 #main {
   margin-left: 300px;
@@ -785,6 +800,7 @@ section {
   background: #149ddd;
   color: #fff;
 }
+
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
